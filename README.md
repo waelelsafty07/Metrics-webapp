@@ -53,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="#"></a>
 
-- [[Live Demo Link] comming soon]
+- [[Live Demo Link](https://metrics-webapp-n0nn.onrender.com)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
