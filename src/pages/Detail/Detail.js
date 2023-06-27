@@ -1,6 +1,8 @@
+import DetailComponent from '../../components/Detail';
+
 const Detail = () => (
   <>
-    <div> hi detail</div>
+    <DetailComponent />
   </>
 );
 

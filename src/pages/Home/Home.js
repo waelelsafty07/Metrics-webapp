@@ -1,6 +1,8 @@
+import HomepageList from '../../components/HomepageList';
+
 const Home = () => (
   <>
-    <div> hi</div>
+    <HomepageList />
   </>
 );
 
