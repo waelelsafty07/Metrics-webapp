@@ -47,10 +47,8 @@
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 0.4fr);
-  justify-content: center;
-  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .arrow {
@@ -60,6 +58,10 @@
   border-radius: 60%;
   width: 20px;
   height: 20px;
+}
+
+.company-card {
+  width: 50%;
 }
 
 ul {
@@ -90,10 +92,14 @@ ul {
   }
 
   .container {
-    display: grid;
-    grid-template-columns: repeat(5, 0.4fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+  }
+
+  .company-card {
+    width: 25%;
   }
 
   ul {

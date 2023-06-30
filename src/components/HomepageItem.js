@@ -9,7 +9,7 @@ const HomepageItem = (props) => {
     <div className="container" data-testid="homepageitem">
       <div className="item">
         <span className="arrow">➜</span>
-        <BsBuildings />
+        <BsBuildings className="icon-company" />
         <h1 className="title">{title}</h1>
       </div>
     </div>

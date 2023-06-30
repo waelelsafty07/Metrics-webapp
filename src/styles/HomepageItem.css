@@ -3,12 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 160px;
+  width: 100%;
   background-color: rgba(54, 37, 114, 0.518);
-  border-radius: 10px;
   text-align: center;
   padding: 10px;
-  margin: 5px;
+  margin: 1px;
 }
 
 .icon {
@@ -22,7 +21,11 @@
   font-family: Poppins, sans-serif;
   font-size: 15px;
   margin-top: 10px;
-  color: rgb(94, 74, 74);
+  color: #fff;
+}
+
+.icon-company {
+  color: #fff;
 }
 
 /* for desctop version */
@@ -33,9 +36,7 @@
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 260px;
-    border-radius: 10px;
-    margin: 20px 10px;
+    width: 100%;
     text-align: center;
   }
 
