@@ -153,6 +153,8 @@ If you like this project, please give it a star, and if you would love to tell m
 
 I would like to thank Microverse community for this opportunity to learn new things.
 
+This project uses a design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -161,9 +163,6 @@ I would like to thank Microverse community for this opportunity to learn new thi
 
 ## 📝 License <a name="license"></a>
 
-This project uses a design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio), which is licensed under a [Creative Commons license type](./LICENSE).
-
-The design used in this project is based on the original work by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) and has been modified to fit the requirements of the project.
-
+This project is [Creative Commons license type](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
