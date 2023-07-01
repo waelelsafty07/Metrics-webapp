@@ -4,7 +4,6 @@ import { BsBuildings } from 'react-icons/bs';
 
 const HomepageItem = (props) => {
   const { title } = props;
-
   return (
     <div className="container" data-testid="homepageitem">
       <div className="item">

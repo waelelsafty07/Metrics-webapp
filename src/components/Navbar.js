@@ -11,12 +11,12 @@ const Navbar = () => {
   return (
     <div className="navigation">
       <div onClick={() => navigate('/')} aria-hidden="true">
-        <BsChevronLeft />
+        <BsChevronLeft className="icon-white" />
       </div>
       <h2 className="heading">Companies</h2>
       <div className="position">
-        <BsFillMicFill />
-        <AiOutlineSetting />
+        <BsFillMicFill className="icon-white" />
+        <AiOutlineSetting className="icon-white" />
       </div>
     </div>
   );

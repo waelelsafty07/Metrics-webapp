@@ -30,21 +30,22 @@ const HomepageList = () => {
           .filter((company) => {
             if (search === '') {
               return company;
-            } if (
-              company.symbol.toLowerCase().includes(search.toLowerCase())
-            ) {
+            }
+            if (company.symbol.toLowerCase().includes(search.toLowerCase())) {
               return company;
             }
             return null;
           })
-          .map((company) => (
+          .map((company, index) => (
             <div
               key={company.symbol}
               onClick={() => navigate(`/details/${company.symbol}`)}
-              className="company-card"
+              className={`company-card ${
+                index % 4 === 1 || index % 4 === 2 ? 'background' : ''
+              }`}
               aria-hidden="true"
             >
-              <HomepageItem title={company.symbol} />
+              <HomepageItem title={company.symbol} index={index} />
             </div>
           ))}
       </div>
